@@ -1,0 +1,13 @@
+.about-section {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--white);
+}
+
+.about-description {
+    padding: 0 25rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+}

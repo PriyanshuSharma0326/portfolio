@@ -1,0 +1,42 @@
+.contact-section {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: var(--light-grey);
+    cursor: default;
+}
+
+.fa-paperplane {
+    font-size: 3rem;
+    color: var(--black);
+
+    transition: all 0.25s ease-in-out;
+}
+
+.contact-section-phrase {
+    padding: 0 30rem;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.email-button {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-decoration: none;
+    width: fit-content;
+    color: var(--black);
+    background-color: transparent;
+    padding: 0.65rem 1.25rem;
+    border: 2px solid var(--black);
+    transition: all 0.3s ease-in-out;
+}
+
+.email-button:hover {
+    color: var(--white);
+    background-color: var(--black);
+}

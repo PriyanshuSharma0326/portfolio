@@ -1,0 +1,95 @@
+.footer {
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: var(--bright-black);
+    color: var(--white);
+}
+
+.social-links-container {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.social-link {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #444;
+
+    transition: all 0.25s ease-in-out;
+}
+
+.fa-social {
+    font-size: 1.4rem;
+    color: var(--white);
+
+    transition: all 0.25s ease-in-out;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    background-color: var(--facebook);
+}
+
+.fa-twitter:hover {
+    background-color: var(--twitter);
+}
+
+.fa-instagram:hover {
+    background-color: var(--instagram);
+}
+
+.fa-github:hover {
+    background-color: var(--github);
+}
+
+.fa-linkedin:hover {
+    background-color: var(--linkedin);
+}
+
+.footer-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.fa-rocket {
+    font-size: 1.8rem;
+    color: var(--white);
+    transform: rotate(-45deg);
+
+    transition: all 0.25s ease-in-out;
+}
+
+.footer-icon-container .tooltip-text {
+    visibility: hidden;
+    width: 5.25rem;
+    background-color: #000;
+    color: var(--light-grey);
+    text-align: center;
+    padding: 0.25rem;
+    position: absolute;
+    font-size: 0.65rem;
+    z-index: 1;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    transition: all 0.3s ease-out;
+}
+
+.footer-icon-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}

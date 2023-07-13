@@ -8,4 +8,4 @@ function SectionTitle({ title }) {
     )
 }
 
-export default SectionTitle
+export default SectionTitle;

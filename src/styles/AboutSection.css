@@ -1,8 +1,4 @@
 .about-section {
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
     background-color: var(--white);
 }
 

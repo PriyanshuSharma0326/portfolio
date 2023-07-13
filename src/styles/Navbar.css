@@ -4,7 +4,6 @@
     left: 0;
     z-index: 10;
     width: 100%;
-    background: transparent;
 
     padding: 2rem 4rem;
 
@@ -16,8 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    font-family: var(--open-sans);
 }
 
 .nav-logo {
@@ -53,4 +50,10 @@
 .navbar-black {
     padding: 1rem 4rem;
     background-color: var(--black);
+}
+
+@media screen and (max-width: 1440px) {
+    /* .navbar {
+        width: 100%;
+    } */
 }

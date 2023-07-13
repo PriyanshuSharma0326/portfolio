@@ -19,7 +19,7 @@ function HeroSection() {
                 </h1>
 
                 <h2 className="hero-description">
-                    Web Developer & Front-End Enthusiast
+                    A Web Developer & Front-End Enthusiast
                 </h2>
             </div>
 

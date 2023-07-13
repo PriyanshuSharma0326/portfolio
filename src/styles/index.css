@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 :root {
@@ -35,14 +36,11 @@ button {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--open-sans);
 
     background-color: var(--white);
     max-width: 100vw;
+    height: 100vh;
 }
 
 /* Section Title */
@@ -52,4 +50,21 @@ body {
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+/* Common CSS */
+
+.about-section, 
+.skill-section, 
+.projects-section, 
+.contact-section
+{
+    max-width: 100vw;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
 }

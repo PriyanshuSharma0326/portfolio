@@ -33,7 +33,7 @@ function Footer() {
             <a href='#Home' className="footer-icon-container">
                 <FontAwesomeIcon className='fa-rocket' icon={faRocket} />
 
-                <span class="tooltip-text">Head on top!</span>
+                <span className="tooltip-text">Head on top!</span>
             </a>
 
             <p className="footer-credits">

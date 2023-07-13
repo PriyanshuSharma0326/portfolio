@@ -1,10 +1,5 @@
 .contact-section {
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 2rem;
-
     background-color: var(--light-grey);
     cursor: default;
 }

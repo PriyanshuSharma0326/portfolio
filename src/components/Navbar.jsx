@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Navbar.css';
 
+import { Link } from 'react-scroll';
+
 function Navbar() {
     const [show, setShow] = useState(false);
 
@@ -28,10 +30,38 @@ function Navbar() {
                 </div>
 
                 <div className="nav-links">
-                    <a href='#About' className="nav-link">About</a>
-                    <a href='#Skills' className="nav-link">Skills</a>
-                    <a href='#Projects' className="nav-link">Projects</a>
-                    <a href='#Contact' className="nav-link">Contact</a>
+                    <Link 
+                        className="nav-link" 
+                        to="About" 
+                        smooth={true} 
+                        duration={100} 
+                    >
+                        About
+                    </Link>
+                    <Link 
+                        className="nav-link" 
+                        to="Skills" 
+                        smooth={true} 
+                        duration={100} 
+                    >
+                        Skills
+                    </Link>
+                    <Link 
+                        className="nav-link" 
+                        to="Projects" 
+                        smooth={true} 
+                        duration={100} 
+                    >
+                        Projects
+                    </Link>
+                    <Link 
+                        className="nav-link" 
+                        to="Contact" 
+                        smooth={true} 
+                        duration={100} 
+                    >
+                        Contact
+                    </Link>
                 </div>
             </div>
         </div>

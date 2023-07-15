@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/HeroSection.css';
 
+import { Link } from 'react-scroll';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,9 +25,14 @@ function HeroSection() {
                 </h2>
             </div>
 
-            <a href="#About">
+            <Link 
+                className="nav-link" 
+                to="About" 
+                smooth={true} 
+                duration={100} 
+            >
                 <FontAwesomeIcon className='fa-down' icon={faAngleDown} />
-            </a>
+            </Link>
         </div>
     );
 }

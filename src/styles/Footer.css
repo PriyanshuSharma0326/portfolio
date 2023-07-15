@@ -69,6 +69,7 @@
     transform: rotate(-45deg);
 
     transition: all 0.25s ease-in-out;
+    cursor: pointer;
 }
 
 .footer-icon-container .tooltip-text {

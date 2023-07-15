@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Footer.css';
 
+import { Link } from 'react-scroll';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -30,11 +32,21 @@ function Footer() {
                 </a>
             </div>
 
-            <a href='#Home' className="footer-icon-container">
+            <Link 
+                className="footer-icon-container" 
+                to="Home" 
+                smooth={true} 
+                duration={400} 
+                offset={-50}
+            >
                 <FontAwesomeIcon className='fa-rocket' icon={faRocket} />
 
                 <span className="tooltip-text">Head on top!</span>
-            </a>
+            </Link>
+
+            {/* <a href='#Home' className="footer-icon-container">
+                
+            </a> */}
 
             <p className="footer-credits">
                 ©Priyanshu Sharma 2023

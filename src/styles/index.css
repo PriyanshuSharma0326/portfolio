@@ -68,3 +68,52 @@ body {
 
 @media screen and (max-width: 1440px) {
 }
+
+@media screen and (max-width: 1024px) {
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    /* Common CSS */
+    
+    .about-section, 
+    .skill-section, 
+    .projects-section, 
+    .contact-section
+    {
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 2.1rem;
+    }
+    
+    /* Common CSS */
+    
+    .about-section, 
+    .skill-section, 
+    .projects-section, 
+    .contact-section
+    {
+        padding: 6rem 0;
+        gap: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    /* Common CSS */
+    
+    .about-section, 
+    .skill-section, 
+    .projects-section, 
+    .contact-section
+    {
+        padding: 5rem 0;
+    }
+}

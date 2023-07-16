@@ -94,3 +94,41 @@
     visibility: visible;
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .social-link {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+    .fa-social {
+        font-size: 1.25rem;
+    }
+
+    .fa-rocket {
+        font-size: 1.6rem;
+    }
+
+    .footer-credits {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .social-link {
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+
+    .fa-social {
+        font-size: 1.5rem;
+    }
+
+    .fa-rocket {
+        font-size: 2rem;
+    }
+
+    .footer-credits {
+        font-size: 1.25rem;
+    }
+}

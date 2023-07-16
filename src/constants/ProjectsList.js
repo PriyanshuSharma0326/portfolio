@@ -30,7 +30,7 @@ const projects = [
     {
         id: 5,
         project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/Random-Advice-Generator/main/design/desktop-design.png',
-        project_title: 'Random Advice Generator(FrontendMentor)',
+        project_title: 'Random Advice Generator',
         live_url: 'https://priyanshusharma0326.github.io/Random-Advice-Generator/',
         source_url: 'https://github.com/PriyanshuSharma0326/Random-Advice-Generator',
     },

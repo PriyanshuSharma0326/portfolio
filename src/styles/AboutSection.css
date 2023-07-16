@@ -7,3 +7,24 @@
     font-size: 1.1rem;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1024px) {
+    .about-description {
+        padding: 0 11rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-description {
+        padding: 0 6rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .about-description {
+        padding: 0 2rem;
+        font-size: 1rem;
+    }
+}

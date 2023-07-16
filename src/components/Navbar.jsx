@@ -3,6 +3,9 @@ import '../styles/Navbar.css';
 
 import { Link } from 'react-scroll';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 function Navbar() {
     const [show, setShow] = useState(false);
 
@@ -62,6 +65,10 @@ function Navbar() {
                     >
                         Contact
                     </Link>
+                </div>
+
+                <div className="section-menu">
+                    <FontAwesomeIcon className='fa-bars' icon={faBars} />
                 </div>
             </div>
         </div>

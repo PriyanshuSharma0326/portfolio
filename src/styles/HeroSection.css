@@ -81,7 +81,50 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .hero-container {
-        height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-title {
+        line-height: 4rem;
+        font-size: 3.5rem;
+    }
+
+    .hero-description {
+        line-height: 1.25rem;
+        font-size: 0.8rem;
+    }
+
+    .fa-down {
+        bottom: 1.25rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        line-height: 4.5rem;
+        font-size: 4rem;
+    }
+
+    .hero-description {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero-title {
+        line-height: 2.75rem;
+        font-size: 2.65rem;
+    }
+
+    .hero-description {
+        line-height: 0.65rem;
+        font-size: 0.6rem;
+    }
+
+    .fa-down {
+        bottom: 1rem;
+        font-size: 1.75rem;
     }
 }

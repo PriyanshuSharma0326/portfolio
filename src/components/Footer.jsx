@@ -44,10 +44,6 @@ function Footer() {
                 <span className="tooltip-text">Head on top!</span>
             </Link>
 
-            {/* <a href='#Home' className="footer-icon-container">
-                
-            </a> */}
-
             <p className="footer-credits">
                 ©Priyanshu Sharma 2023
             </p>

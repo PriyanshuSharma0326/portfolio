@@ -26,7 +26,7 @@
     transition: opacity 0.4s ease-in-out;
 }
 
-.project:hover .project-image {
+.project-main-container:hover .project-image {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -66,11 +66,51 @@
     color: var(--black);
 }
 
-.project:hover .live-site-url, .project:hover .source-url {
+.project-main-container:hover .live-site-url, .project-main-container:hover .source-url {
     bottom: 0.5rem;
 }
 
 .project-title {
     font-size: 1.15rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    .live-site-url {
+        bottom: -2.65rem;
+        left: 0.75rem;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.75rem;
+    }
+    
+    .source-url {
+        bottom: -2.65rem;
+        right: 0.75rem;
+        padding: 0.5rem 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .live-site-url {
+        bottom: -2.65rem;
+        left: 0.75rem;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .source-url {
+        bottom: -2.65rem;
+        right: 0.75rem;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .project-title {
+        font-size: 1.25rem;
+    }
 }

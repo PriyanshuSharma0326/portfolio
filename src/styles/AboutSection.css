@@ -3,9 +3,10 @@
 }
 
 .about-description {
-    padding: 0 25rem;
+    padding: 0 24rem;
     font-size: 1.1rem;
     font-weight: 300;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {

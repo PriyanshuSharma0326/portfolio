@@ -127,4 +127,8 @@
         bottom: 1rem;
         font-size: 1.75rem;
     }
+
+    .hero-content {
+        gap: 1.5rem;
+    }
 }

@@ -9,7 +9,12 @@ function AboutSection() {
                 title='who i am'
             />
 
-            <p className="about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero in nihil quam quidem nisi. Ex ullam sed ut error est ab consectetur doloribus quae numquam, optio eius, perspiciatis possimus quidem magnam ipsa facere earum impedit labore debitis aut! Incidunt cupiditate ipsam eligendi accusantium aliquid cum? Nisi quaerat velit nesciunt ipsum?</p>
+            <p className="about-description">
+            Hello there! I'm a 21-year-old guy with a love for web development. I enjoy creating beautiful and accurate websites that you can see and interact with. Learning about new technologies excites me, and I always keep an eye out for the latest trends. When I'm not working on websites, I like to explore my artistic side by drawing incredibly realistic pencil sketches.
+            <br />
+            <br />
+            Welcome to my portfolio website, where I share my passion for both web development and art!
+            </p>
         </div>
     );
 }

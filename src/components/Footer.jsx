@@ -11,17 +11,17 @@ function Footer() {
     return (
         <div className='footer'>
             <div className="social-links-container">
-                {/* <a href="https://www.facebook.com/xtechilad" className="social-link fa-facebook" target='_blank' rel='noreferrer'>
+                <a href="https://www.facebook.com/xtechilad" className="social-link fa-facebook" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon className='fa-social' icon={faFacebookF} />
-                </a> */}
+                </a>
 
                 <a href="https://www.twitter.com/xtechilad" className="social-link fa-twitter" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon className='fa-social' icon={faTwitter} />
                 </a>
 
-                {/* <a href="https://www.instagram.com/xtechilad" className="social-link fa-instagram" target='_blank' rel='noreferrer'>
+                <a href="https://www.instagram.com/xtechilad" className="social-link fa-instagram" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon className='fa-social' icon={faInstagram} />
-                </a> */}
+                </a>
 
                 <a href="https://www.github.com/priyanshusharma0326" className="social-link fa-github" target='_blank' rel='noreferrer'>
                     <FontAwesomeIcon className='fa-social' icon={faGithub} />

@@ -7,6 +7,8 @@
 
     background-color: var(--bright-black);
     color: var(--white);
+
+    position: relative;
 }
 
 .social-links-container {
@@ -59,17 +61,26 @@
 }
 
 .footer-icon-container {
-    position: relative;
-    display: inline-block;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background-color: var(--bright-black);
+    cursor: pointer;
 }
 
 .fa-rocket {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--white);
     transform: rotate(-45deg);
 
     transition: all 0.25s ease-in-out;
-    cursor: pointer;
 }
 
 .footer-icon-container .tooltip-text {
@@ -112,6 +123,17 @@
     .footer-credits {
         font-size: 0.95rem;
     }
+
+    .footer-icon-container {
+        right: 3rem;
+        bottom: 3rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .fa-rocket {
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -130,5 +152,29 @@
 
     .footer-credits {
         font-size: 1.25rem;
+    }
+
+    .footer-icon-container {
+        right: 3rem;
+        bottom: 3rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .fa-rocket {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer-icon-container {
+        right: 2.5rem;
+        bottom: 2.5rem;
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+
+    .fa-rocket {
+        font-size: 1.4rem;
     }
 }

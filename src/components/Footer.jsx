@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Footer.css';
 
 import { Link } from 'react-scroll';
@@ -8,6 +8,24 @@ import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
+    const [show, setShow] = useState(false);
+
+    const transitionNavbar = () => {
+        if(window.scrollY > 150) {
+            setShow(true);
+        } else {
+            setShow(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', transitionNavbar);
+    
+        return () => {
+            window.removeEventListener('scroll', transitionNavbar);
+        }
+    }, []);
+
     return (
         <div className='footer'>
             <div className="social-links-container">
@@ -32,7 +50,7 @@ function Footer() {
                 </a>
             </div>
 
-            <Link 
+            {show && <Link 
                 className="footer-icon-container" 
                 to="Home" 
                 smooth={true} 
@@ -42,7 +60,7 @@ function Footer() {
                 <FontAwesomeIcon className='fa-rocket' icon={faRocket} />
 
                 <span className="tooltip-text">Head on top!</span>
-            </Link>
+            </Link>}
 
             <p className="footer-credits">
                 ©Priyanshu Sharma 2023

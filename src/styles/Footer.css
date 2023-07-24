@@ -93,17 +93,23 @@
     position: absolute;
     font-size: 0.65rem;
     z-index: 1;
-    bottom: -1.5rem;
+    bottom: -1.75rem;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
+    display: none;
 
     transition: all 0.3s ease-out;
 }
 
-.footer-icon-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
+@media screen and (min-width:700px) {
+    .footer-icon-container:hover .tooltip-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1024px) {

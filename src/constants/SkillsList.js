@@ -31,14 +31,29 @@ const skills = [
     },
     {
         id: 7,
+        icon: `node.png`,
+        title: 'NodeJS',
+    },
+    {
+        id: 8,
         icon: `react.png`,
         title: 'ReactJS',
     },
     {
-        id: 8,
+        id: 9,
+        icon: `google-cloud.png`,
+        title: 'GoogleCloud',
+    },
+    {
+        id: 10,
+        icon: `redux.png`,
+        title: 'Redux',
+    },
+    {
+        id: 11,
         icon: `api.png`,
         title: 'API',
-    },
+    }
 ];
 
 export {skills};

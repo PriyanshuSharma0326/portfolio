@@ -10,8 +10,8 @@ import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fo
 function Footer() {
     const [show, setShow] = useState(false);
 
-    const transitionNavbar = () => {
-        if(window.scrollY > 150) {
+    const transitionRocket = () => {
+        if(window.scrollY > 600) {
             setShow(true);
         } else {
             setShow(false);
@@ -19,10 +19,10 @@ function Footer() {
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', transitionNavbar);
+        window.addEventListener('scroll', transitionRocket);
     
         return () => {
-            window.removeEventListener('scroll', transitionNavbar);
+            window.removeEventListener('scroll', transitionRocket);
         }
     }, []);
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import '../styles/ProjectsSection.css';
-import SectionTitle from './SectionTitle';
-import ProjectCard from './ProjectCard';
+import './projects-section.styles.scss';
+import { SectionTitle, ProjectCard } from '../../constants/index';
 
-import { projects } from '../constants/ProjectsList';
+import { projects } from '../../constants/ProjectsList';
 
 function ProjectsSection() {
     return (

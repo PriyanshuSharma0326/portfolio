@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/AboutSection.css';
-import SectionTitle from './SectionTitle';
+import './about-section.styles.scss';
+import { SectionTitle } from '../../constants/index';
 
 function AboutSection() {
     return (
@@ -19,4 +19,4 @@ function AboutSection() {
     );
 }
 
-export default AboutSection
+export default AboutSection;

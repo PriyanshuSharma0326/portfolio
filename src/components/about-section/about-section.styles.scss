@@ -1,12 +1,12 @@
 .about-section {
     background-color: var(--white);
-}
 
-.about-description {
-    padding: 0 24rem;
-    font-size: 1.1rem;
-    font-weight: 300;
-    text-align: center;
+    .about-description {
+        padding: 0 24rem;
+        font-size: 1.1rem;
+        font-weight: 300;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 1024px) {

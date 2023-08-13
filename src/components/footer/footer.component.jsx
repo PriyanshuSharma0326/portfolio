@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/Footer.css';
+import './footer.styles.scss';
 
 import { Link } from 'react-scroll';
 

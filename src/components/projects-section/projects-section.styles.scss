@@ -1,14 +1,14 @@
 .projects-section {
     background-color: var(--white);
-}
 
-.projects-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 3rem;
-    row-gap: 3rem;
-
-    padding: 0 8rem;
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+        row-gap: 3rem;
+    
+        padding: 0 8rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {

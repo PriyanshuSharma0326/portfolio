@@ -1,11 +1,10 @@
 import React from 'react';
-import '../styles/SkillSection.css';
-import SectionTitle from './SectionTitle';
-import Skill from './Skill';
+import './skills-section.styles.scss';
+import { SectionTitle, Skill } from '../../constants/index';
 
-import { skills } from '../constants/SkillsList';
+import { skills } from '../../constants/SkillsList';
 
-function SkillSection() {
+function SkillsSection() {
     return (
         <div className='skill-section' id='Skills'>
             <SectionTitle 
@@ -34,4 +33,4 @@ function SkillSection() {
     );
 }
 
-export default SkillSection;
+export default SkillsSection;

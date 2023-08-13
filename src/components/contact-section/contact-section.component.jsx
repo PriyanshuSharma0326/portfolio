@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/ContactSection.css';
-import SectionTitle from './SectionTitle';
+import './contact-section.styles.scss';
+import { SectionTitle } from '../../constants/index';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';

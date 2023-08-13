@@ -1,6 +1,6 @@
 # My Portfolio Project - React
 
-![Portfolio Screenshot](/screenshot.png)
+![Portfolio Screenshot](/public/assets/screenshot.jpeg)
 
 Welcome to my portfolio project built using React! This repository showcases my skills, projects, and experiences in the world of web development. Whether you're a potential employer, collaborator, or just curious about my work, this portfolio provides a comprehensive overview of my capabilities.
 

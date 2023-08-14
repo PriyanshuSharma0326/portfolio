@@ -41,6 +41,20 @@
                 background-color: var(--white);
                 color: var(--black);
             }
+
+            @media (max-width: 1024px) {
+                bottom: -2.65rem;
+                left: 0.75rem;
+                padding: 0.5rem 0.8rem;
+                font-size: 0.75rem;
+            }
+
+            @media (max-width: 426px) {
+                bottom: -2.65rem;
+                left: 0.75rem;
+                padding: 0.75rem 1rem;
+                font-size: 0.9rem;
+            }
         }
         
         .source-url {
@@ -61,6 +75,20 @@
                 background-color: var(--white);
                 color: var(--black);
             }
+
+            @media (max-width: 1024px) {
+                bottom: -2.65rem;
+                right: 0.75rem;
+                padding: 0.5rem 0.8rem;
+                font-size: 0.75rem;
+            }
+
+            @media (max-width: 426px) {
+                bottom: -2.65rem;
+                right: 0.75rem;
+                padding: 0.75rem 1rem;
+                font-size: 0.9rem;
+            }
         }
 
         &:hover .project-image {
@@ -76,45 +104,13 @@
     .project-title {
         font-size: 1.15rem;
         font-weight: 400;
-    }
-}
 
-@media screen and (max-width: 1024px) {
-    .live-site-url {
-        bottom: -2.65rem;
-        left: 0.75rem;
-        padding: 0.5rem 0.8rem;
-        font-size: 0.75rem;
-    }
-    
-    .source-url {
-        bottom: -2.65rem;
-        right: 0.75rem;
-        padding: 0.5rem 0.8rem;
-        font-size: 0.75rem;
-    }
+        @media (max-width: 1024px) {
+            font-size: 1rem;
+        }
 
-    .project-title {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    .live-site-url {
-        bottom: -2.65rem;
-        left: 0.75rem;
-        padding: 0.75rem 1rem;
-        font-size: 0.9rem;
-    }
-    
-    .source-url {
-        bottom: -2.65rem;
-        right: 0.75rem;
-        padding: 0.75rem 1rem;
-        font-size: 0.9rem;
-    }
-
-    .project-title {
-        font-size: 1.25rem;
+        @media (max-width: 426px) {
+            font-size: 1.25rem;
+        }
     }
 }

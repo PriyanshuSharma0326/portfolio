@@ -1,8 +1,6 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
 
-import { AboutSection, ContactSection, Footer, ProjectsSection, SkillsSection } from './constants/index';
+import { AboutSection, ContactSection, Footer, HeroSection, Navbar, ProjectsSection, SkillsSection } from './constants/index';
 
 export default function App() {
     return (

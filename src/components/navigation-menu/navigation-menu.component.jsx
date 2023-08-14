@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/NavigationMenu.css';
+import './navigation-menu.styles.scss';
 
 import { Link } from 'react-scroll';
 

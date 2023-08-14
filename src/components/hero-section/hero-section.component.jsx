@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/HeroSection.css';
+import './hero-section.styles.scss';
 
 import { Link } from 'react-scroll';
 

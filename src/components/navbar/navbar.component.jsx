@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/Navbar.css';
+import './navbar.styles.scss';
 
 import { Link } from 'react-scroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import NavigationMenu from './NavigationMenu';
+import { NavigationMenu } from '../../constants/index';
 
 function Navbar() {
     const [show, setShow] = useState(false);

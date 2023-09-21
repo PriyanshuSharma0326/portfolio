@@ -1,11 +1,37 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import './navigation-menu.styles.scss';
 
 import { Link } from 'react-scroll';
+import { NavbarContext } from '../../context/navbar-context';
 
-function NavigationMenu({ hideMenu }) {
+function useOutsideAlerter(ref) {
+    const { setMenu } = useContext(NavbarContext);
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (ref.current && !ref.current.contains(event.target)) {
+                setMenu(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [ref]);
+}
+
+function NavigationMenu() {
+    const { setMenu, wrapperRef } = useContext(NavbarContext);
+    useOutsideAlerter(wrapperRef);
+
+    const hideMenu = () => {
+        setMenu(false);
+    }
+
     return (
-        <div className="nav-menu">
+        <div className="nav-menu" ref={wrapperRef}>
             <div className="nav-menu-links">
                 <Link 
                     className="nav-menu-link" 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './navbar.styles.scss';
 
 import { Link } from 'react-scroll';
@@ -6,10 +6,11 @@ import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { NavigationMenu } from '../../constants/index';
+import { NavbarContext } from '../../context/navbar-context';
 
 function Navbar() {
     const [show, setShow] = useState(false);
-    const [menu, setMenu] = useState(false);
+    const { menu, setMenu } = useContext(NavbarContext);
 
     const transitionNavbar = () => {
         if(window.scrollY > 50) {
@@ -20,16 +21,7 @@ function Navbar() {
     }
 
     const displayMenu = () => {
-        if(menu) {
-            setMenu(false);
-        }
-        else {
-            setMenu(true);
-        }
-    }
-
-    const hideMenu = () => {
-        setMenu(false);
+        setMenu(!menu);
     }
 
     useEffect(() => {
@@ -93,9 +85,7 @@ function Navbar() {
                 </div>
             </div>
 
-            {menu && <NavigationMenu 
-                hideMenu={hideMenu} 
-            />}
+            {menu && <NavigationMenu />}
         </>
     );
 }

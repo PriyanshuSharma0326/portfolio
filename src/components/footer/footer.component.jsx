@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faInstagram, faLinkedinIn, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     const [show, setShow] = useState(false);
@@ -34,7 +34,7 @@ function Footer() {
                 </a>
 
                 <a href="https://www.twitter.com/xtechilad" className="social-link fa-twitter" target='_blank' rel='noreferrer'>
-                    <FontAwesomeIcon className='fa-social' icon={faTwitter} />
+                    <FontAwesomeIcon className='fa-social' icon={faXTwitter} />
                 </a>
 
                 <a href="https://www.instagram.com/xtechilad" className="social-link fa-instagram" target='_blank' rel='noreferrer'>

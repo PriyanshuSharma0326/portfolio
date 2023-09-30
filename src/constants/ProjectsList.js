@@ -1,18 +1,18 @@
 const projects = [
     {
         id: 1,
+        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/telechat/main/public/media/desktop-ui.png',
+        project_title: 'Telechat',
+        live_url: 'https://telechat-connect.vercel.app',
+        source_url: 'https://github.com/PriyanshuSharma0326/telechat',
+    },
+    {
+        id: 2,
         project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/electronics-store-react/main/public/assets/desktop.png',
         project_title: 'Circuit Cart',
         live_url: 'https://circuit-cart.vercel.app/',
         source_url: 'https://github.com/PriyanshuSharma0326/electronics-store-react',
     },
-    // {
-    //     id: 2,
-    //     project_image: '',
-    //     project_title: '',
-    //     live_url: '',
-    //     source_url: '',
-    // },
     {
         id: 3,
         project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/tic-tac-toe/main/design/desktop-design.png',

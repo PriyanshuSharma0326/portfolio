@@ -48,27 +48,27 @@ const projects = [
     //     live_url: 'https://priyanshusharma0326.github.io/tip-calculator/',
     //     source_url: 'https://github.com/PriyanshuSharma0326/tip-calculator',
     // },
-    {
-        id: 8,
-        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/vanilla-weather/main/design/desktop-design.jpeg',
-        project_title: 'Vanilla Weather',
-        live_url: 'https://vanilla-weather-xtechilad.netlify.app/',
-        source_url: 'https://github.com/PriyanshuSharma0326/vanilla-weather',
-    },
-    {
-        id: 9,
-        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/Guess-My-Number/main/design/desktop-design.png',
-        project_title: 'Guess the Number',
-        live_url: 'https://priyanshusharma0326.github.io/Guess-My-Number/',
-        source_url: 'https://github.com/PriyanshuSharma0326/Guess-My-Number',
-    },
-    {
-        id: 10,
-        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/Rock-Paper-Scissors/main/design/desktop-design.png',
-        project_title: 'Rock Paper Scissors',
-        live_url: 'https://priyanshusharma0326.github.io/Rock-Paper-Scissors/',
-        source_url: 'https://github.com/PriyanshuSharma0326/Rock-Paper-Scissors',
-    },
+    // {
+    //     id: 8,
+    //     project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/vanilla-weather/main/design/desktop-design.jpeg',
+    //     project_title: 'Vanilla Weather',
+    //     live_url: 'https://vanilla-weather-xtechilad.netlify.app/',
+    //     source_url: 'https://github.com/PriyanshuSharma0326/vanilla-weather',
+    // },
+    // {
+    //     id: 9,
+    //     project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/Guess-My-Number/main/design/desktop-design.png',
+    //     project_title: 'Guess the Number',
+    //     live_url: 'https://priyanshusharma0326.github.io/Guess-My-Number/',
+    //     source_url: 'https://github.com/PriyanshuSharma0326/Guess-My-Number',
+    // },
+    // {
+    //     id: 10,
+    //     project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/Rock-Paper-Scissors/main/design/desktop-design.png',
+    //     project_title: 'Rock Paper Scissors',
+    //     live_url: 'https://priyanshusharma0326.github.io/Rock-Paper-Scissors/',
+    //     source_url: 'https://github.com/PriyanshuSharma0326/Rock-Paper-Scissors',
+    // },
 ];
 
 export {projects};

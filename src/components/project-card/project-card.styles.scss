@@ -28,18 +28,18 @@
             z-index: 2;
             bottom: -2.65rem;
             left: 1rem;
-            padding: 0.75rem 1rem;
-            font-size: 0.9rem;
+            padding: 0.65rem 1rem;
+            font-size: 0.85rem;
             text-transform: uppercase;
+            border-radius: 0.25rem;
         
             color: var(--white);
-            background-color: var(--black);
+            background-color: var(--blue-1);
         
             transition: bottom 0.4s ease-in-out;
 
             &:hover {
-                background-color: var(--white);
-                color: var(--black);
+                background-color: var(--blue-2);
             }
 
             @media (max-width: 1024px) {
@@ -62,18 +62,18 @@
             z-index: 2;
             bottom: -2.65rem;
             right: 1rem;
-            padding: 0.75rem 1rem;
-            font-size: 0.9rem;
+            padding: 0.65rem 1rem;
+            font-size: 0.85rem;
             text-transform: uppercase;
+            border-radius: 0.25rem;
         
             color: var(--white);
-            background-color: var(--black);
+            background-color: var(--blue-1);
         
             transition: bottom 0.4s ease-in-out;
 
             &:hover {
-                background-color: var(--white);
-                color: var(--black);
+                background-color: var(--blue-2);
             }
 
             @media (max-width: 1024px) {

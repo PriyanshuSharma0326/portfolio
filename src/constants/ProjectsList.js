@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 1,
-        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/telechat/main/public/media/desktop-ui.png',
+        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/telechat/main/public/media/desktop-siteshot.png',
         project_title: 'Telechat',
         live_url: 'https://telechat-connect.vercel.app',
         source_url: 'https://github.com/PriyanshuSharma0326/telechat',

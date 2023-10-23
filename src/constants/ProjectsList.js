@@ -8,7 +8,7 @@ const projects = [
     },
     {
         id: 2,
-        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/electronics-store-react/main/public/assets/desktop.png',
+        project_image: 'https://raw.githubusercontent.com/PriyanshuSharma0326/electronics-store-react/main/public/assets/desktop-siteshot.png',
         project_title: 'Circuit Cart',
         live_url: 'https://circuit-cart.vercel.app/',
         source_url: 'https://github.com/PriyanshuSharma0326/electronics-store-react',
